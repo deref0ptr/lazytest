@@ -2,6 +2,7 @@
 name = "lazytest"
 authors = ["deref0ptr"]
 description = "Reduces the boilerplate required for simple unit tests"
+repository = "https://github.com/deref0ptr/lazytest"
 version = "0.1.0"
 edition = "2021"
 keywords = ["testing", "macro"]
