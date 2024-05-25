@@ -8,7 +8,7 @@ Given the function:
 
 ```rust
 pub fn answer() -> usize {
-	42
+    42
 }
 ```
 
@@ -18,19 +18,20 @@ These are equivalent:
 use lazytest::lazytest;
 
 lazytest! {
-	check_answer {
-		assert_eq!(answer(), 42);
-	}
+    check_answer {
+        assert_eq!(answer(), 42);
+    }
 }
 ```
 
 ```rust
 #[cfg(test)]
 mod tests {
+    use super::*;
 
-	#[test]
-	fn check_answer() {
-		assert_eq!(answer(), 42);
-	}
+    #[test]
+    fn check_answer() {
+        assert_eq!(answer(), 42);
+    }
 }
 ```
