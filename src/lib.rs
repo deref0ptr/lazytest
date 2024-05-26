@@ -1,5 +1,7 @@
 //! Provides the [lazytest] macro to reduce the amount of code needed to write unit tests.
 
+/// The core macro of the crate.
+/// 
 /// This macro converts blocks of the form:
 /// ```ignore
 ///     test_name {
