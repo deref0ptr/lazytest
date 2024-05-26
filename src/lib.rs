@@ -3,7 +3,7 @@
 /// The core macro of the crate.
 /// 
 /// This macro converts blocks of the form:
-/// ```ignore
+/// ```text
 ///     test_name {
 ///         test_body
 ///     }
