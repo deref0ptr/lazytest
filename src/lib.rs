@@ -4,9 +4,9 @@
 /// 
 /// This macro converts blocks of the form:
 /// ```text
-///     test_name {
-///         test_body
-///     }
+/// test_name {
+///     test_body
+/// }
 /// ```
 /// into unit test functions and places them in a `#[cfg(test)]` module.
 /// 
